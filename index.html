@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar display-flex-row content-space-between">
+        <div>
+            <img src="Images/Cookpal 1.png" alt="">
+        </div>
+        <div class="display-flex-row content-space-between gap-3rem">
+            <div class="display-flex-row gap-3rem">
+                <img src="Images/Frame 11.png" alt="Home">
+                <img src="Images/Frame 12.png" alt="Explore">
+                <img src="Images/Frame 13.png" alt="Help">
+            </div>
+            <div>
+                <img src="Images/Ellipse 2.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="display-flex-col banner-img">
+        <img src="Images/Banner.png" alt="">
+    </div>
+    <div class="display-flex-col content-flex-start padding-lr-3rem">
+        <div class="display-flex-col gap-1rem content-flex-start">
+            <p>Search For Recipes</p>
+            <div id="search-bar" class="display-flex-row content-space-between">
+                <div class="display-flex-row gap-half-rem">
+                    <img src="Images/Frame 3.png" alt="">
+                    <input id="searchBar" type="text" placeholder="Search for recipes...">
+                </div>
+
+                <div id="search-img" class="display-flex-row content-center">
+                    <img src="Images/li_search.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="categories" class="display-flex-row gap-1rem">
+            <div id="all-recipes" class="display-flex-row content-space-between">
+                <p>All Recipes</p>
+                <img src="Images/chevron.png" alt="">
+            </div>
+            <div id="veg-recipes" class="display-flex-row content-space-between">
+                <p>Veg Recipes Only</p>
+                <img src="Images/chevron.png" alt="">
+            </div>
+            <div id="nonveg-recipes" class="display-flex-row content-space-between">
+                <p>Non Veg Recipes</p>
+                <img src="Images/chevron.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- food menu -->
+    <div class="display-flex-row gap-4rem">
+        <div id="filter" class="left display-flex-col gap-1rem content-flex-start">
+            <div id="filters">
+                <p>Filters</p>
+            </div>
+            <div class="display-flex-col gap-1rem content-flex-start">
+                <div id="rating">
+                    <p>Rating</p>
+                </div>
+                <div id="below-4" class="display-flex-row gap-half-rem">
+                    <input type="checkbox" name="tickbox" id="tickbox-above-4" value="above-4">
+                    <p>4 and Above</p>
+                </div>
+
+                <div id="below-4" class="display-flex-row gap-half-rem">
+                    <input type="checkbox" name="tickbox" id="tickbox-below-4" value="below-4">
+                    <p>Below 4</p>
+                </div>
+            </div>
+        </div>
+        <div id="right" class="right">
+            <div id="food-item-box">
+                <div class="food-image"><img src="Images/item.png" alt=""></div>
+                <div >
+                    <div id="food-info">
+                        <p class="food-type">Veg</p>
+                        <div class="display-flex-row content-space-between">
+                            <p id="food-name">Russian Salad</p>
+                            <div class="display-flex-row"><img src="Images/Frame 28.png" alt="">
+                                <p class="food-type">4.5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="time" class="display-flex-row content-space-between">
+                        <p>40 min</p>
+                        <div>
+                            <img src="Images/Vector.png" alt="">
+                            <img src="Images/comments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="display-flex-col content-center">
+        <div id="about" class="display-flex-row content-space-between">
+            <div id="cookpal" class="display-flex-col content-flex-start gap-1rem align-self-flex-start">
+                <img src="Images/Cookpal 1.png" alt="">
+                <p>Cookpal is a recipe website with a <br> wide variety of delicious recipes, <br>easy-to-use search function.
+                    Join <br>our community and let's cook <br>together!</p>
+            </div>
+            <div class="display-flex-col content-flex-start gap-1rem align-self-flex-start">
+                <p class="heading">Company</p>
+                <p>Home</p>
+                <p>Explore</p>
+                <p>Team</p>
+                <p>About us</p>
+                <p>Activity</p>
+            </div>
+            <div class="display-flex-col content-flex-start gap-1rem align-self-flex-start">
+                <p class="heading">Resources</p>
+                <p>Blog</p>
+                <p>Use Cases</p>
+                <p>Testimonials</p>
+                <p>Insights</p>
+            </div>
+            <div class="display-flex-col content-flex-start gap-1rem align-self-flex-start">
+                <img src="Images/Cookpal 1.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, distinctio!</p>
+                <div id="info-div" class="display-flex-row content-center gap-1rem">
+                    <div id="subs" class="display-flex-row content-center">
+                        <input type="text" placeholder="Your Email">
+                        <img src="Images/@img.png" alt="">
+                    </div>
+                    <div id="sub-btn" class="display-flex-row content-center ">
+                        <p>Subscribe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="socials">
+            <img src="Images/Social Media.png" alt="">
+        </div>
+    </footer>
+    <!-- // js file attach  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
